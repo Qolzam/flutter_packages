@@ -13,17 +13,17 @@ dependencies:
     sdk: flutter
   firebase_storage_service:
     git:
-      url: https://github.com/julienlebren/flutter_packages
+      url: https://github.com/Qolzam/flutter_packages
       path: packages/firebase_storage_service
-    version: ^0.3.0
+    version: ^0.6.0
   layout_builder:
     git:
-      url: https://github.com/julienlebren/flutter_packages
+      url: https://github.com/Qolzam/flutter_packages
       path: packages/layout_builder
     version: ^3.4.14
-  firebase_storage: ^10.2.16
-  flutter_riverpod: ^1.0.3
-  freezed_annotation: ^1.1.0
+  firebase_storage: ^11.0.2
+  flutter_riverpod: ^2.1.1
+  freezed_annotation: ^2.2.0
   image_cropper: ^2.0.3
   image_picker: ^0.8.5+3
 
@@ -31,4 +31,4 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   build_runner: ^2.1.11
-  freezed: ^1.1.1
+  freezed: ^2.2.1
